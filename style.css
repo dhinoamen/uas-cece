@@ -1,0 +1,41 @@
+section{
+    padding-top: 25px;
+    padding-bottom:15px;
+}
+.hero-box .box p{
+    width: 700px;
+}
+@media (max-width:992px){
+   .hero-box .box p{
+    font-size: 14px;
+    width: 500px; 
+}
+}
+@media (max-width:768px){
+    .hero{
+        padding-top: 50px;
+    }
+
+    .hero-box{
+        text-align: center;
+    }
+    .hero-box .box p{
+    width: 100%;
+}
+}
+.skills-section{
+    background-color: #f6f6fa;
+    padding-bottom: 7%;
+    padding-top: 7%;
+}
+.skills-section .progress-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(147, 132, 132);
+}
+
+.skills-section .progress-bar .progress {
+    background-color: rgb(255, 14, 14);
+
+}
